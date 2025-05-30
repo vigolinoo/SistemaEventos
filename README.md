@@ -51,3 +51,18 @@ Abra o projeto na sua IDE de preferência.
 Compile e execute a classe Main.java.
 
 No console, siga as instruções do menu:
+
+💾 Armazenamento de dados
+
+Todos os eventos são salvos no arquivo events.data.
+
+Quando o programa é aberto, ele carrega os eventos automaticamente.
+
+🛠️ Tecnologias utilizadas
+
+Linguagem: Java
+
+Estruturas: Orientação a Objetos
+
+Ferramentas: Eclipse (sugestão), ou qualquer IDE/terminal
+
