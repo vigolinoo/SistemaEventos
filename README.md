@@ -1,68 +1,27 @@
-# SistemaEventos
-📋 Sistema de Cadastro e Notificação de Eventos
-Este é um sistema em Java, desenvolvido com foco na prática de programação orientada a objetos. Ele permite o cadastro de usuários, eventos, e a confirmação ou cancelamento de participação.
+# Sistema de Cadastro e Notificação de Eventos
 
-✅ Funcionalidades
+## Descrição
 
-Cadastro de usuário.
+Sistema em Java desenvolvido para cadastro e gerenciamento de eventos em uma cidade. Permite o cadastro de usuários e eventos, confirmação e cancelamento de participação, além de listar eventos atuais, futuros e já ocorridos. Os dados são salvos e carregados automaticamente em arquivo local.
 
-Cadastro de eventos com:
+## Funcionalidades
 
-Nome
+- Cadastro de usuários com nome, email e telefone.
+- Cadastro de eventos com nome, endereço, categoria, horário e descrição.
+- Consulta de eventos ordenados por horário.
+- Participação e cancelamento em eventos.
+- Visualização dos eventos em que o usuário está participando.
+- Identificação de eventos ocorrendo no momento e já ocorridos.
+- Persistência dos dados em arquivo `events.data`.
 
-Endereço
+## Tecnologias
 
-Categoria
+- Java (Console)
+- Serialização para salvar e carregar dados
+- Uso de `LocalDateTime` para controle de horários
 
-Horário
+## Como usar
 
-Descrição
-
-Listagem de eventos.
-
-Confirmação e cancelamento de participação.
-
-Visualização de eventos confirmados.
-
-Exibição de eventos:
-
-Que já ocorreram.
-
-Que estão ocorrendo no momento.
-
-Que irão ocorrer.
-
-Persistência dos eventos no arquivo events.data.
-
-🚀 Como executar o projeto
-
-✅ Pré-requisitos:
-
-Java instalado (JDK 8 ou superior).
-
-IDE: Eclipse, NetBeans, IntelliJ ou até o terminal.
-
-✅ Passos:
-
-Clone o repositório ou baixe os arquivos .java.
-
-Abra o projeto na sua IDE de preferência.
-
-Compile e execute a classe Main.java.
-
-No console, siga as instruções do menu:
-
-💾 Armazenamento de dados
-
-Todos os eventos são salvos no arquivo events.data.
-
-Quando o programa é aberto, ele carrega os eventos automaticamente.
-
-🛠️ Tecnologias utilizadas
-
-Linguagem: Java
-
-Estruturas: Orientação a Objetos
-
-Ferramentas: Eclipse (sugestão), ou qualquer IDE/terminal
-
+1. Compile e execute o arquivo `SistemaEventos.java`.
+2. Utilize o menu no console para navegar pelas opções.
+3. Os dados dos eventos são automaticamente carregados e salvos.
